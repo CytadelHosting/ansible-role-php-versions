@@ -4,6 +4,8 @@
 
 Allows different PHP versions to be installed when using the `geerlingguy.php` role (or a similar role). This role was originally built for [Drupal VM](https://www.drupalvm.com) but was released more generically so others could use an easier mechanism for switching PHP versions.
 
+This role has been forked by CytadelHosting to remove the auto-deletion of other PHP versions installed on the provisionned machine.
+
 ## Requirements
 
 N/A
@@ -46,3 +48,4 @@ MIT / BSD
 ## Author Information
 
 This role was created in 2017 by [Jeff Geerling](https://www.jeffgeerling.com/), author of [Ansible for DevOps](https://www.ansiblefordevops.com/).
+It was forked in 2022 by [CytadelHosting](https://github.com/CytadelHosting)
